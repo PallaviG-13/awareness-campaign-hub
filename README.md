@@ -24,9 +24,13 @@ Awareness Campaign Hub is a simple yet impactful Django web application designed
 Users can:
 
 •	Register & log in
+
 •	Create awareness campaigns
+
 •	Browse ongoing initiatives
+
 •	Join campaigns
+
 •	Track social participation
 
 The platform focuses on various societal issues, such as:
