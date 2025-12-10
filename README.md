@@ -18,14 +18,19 @@ A Django-based web platform where users can create, explore, and join social awa
 13.	Author
 
 📌 Introduction
+
 Awareness Campaign Hub is a simple yet impactful Django web application designed to promote social responsibility and community involvement.
+
 Users can:
+
 •	Register & log in
 •	Create awareness campaigns
 •	Browse ongoing initiatives
 •	Join campaigns
 •	Track social participation
+
 The platform focuses on various societal issues, such as:
+
 •	Environmental Protection
 •	Mental Health
 •	Hygiene & Healthcare
@@ -33,6 +38,7 @@ The platform focuses on various societal issues, such as:
 •	Women Empowerment
 
 ✨ Features
+
 •	🔐 User Authentication
         o	Register, log in, and manage sessions
 •	📢 Create Awareness Campaigns
@@ -48,25 +54,41 @@ The platform focuses on various societal issues, such as:
 
 
 📁 Project Structure
+
 AwarenessCampaignHub/
+
 ├── manage.py
+
 ├── db.sqlite3
+
 ├── campaign_app/
+
 │   ├── migrations/
+
 │   ├── templates/
+
 │   ├── static/
+
 │   ├── models.py
+
 │   ├── views.py
+
 │   ├── urls.py
+
 │   └── forms.py
 └── AwarenessCampaignHub/
+    
     ├── settings.py
+    
     ├── urls.py
+    
     └── wsgi.py
 
 
 ⚙ Installation
+
 Follow these steps to run the project locally:
+
 1️⃣ Clone the Repository
     git clone https://github.com/<your-username>/<repo-name>.git
     cd <repo-name>
@@ -92,7 +114,9 @@ Follow these steps to run the project locally:
 
 
 🧭 Usage
+
 Once the server is running:
+
 •	Visit the homepage
 •	Register as a new user
 •	Browse available campaigns
@@ -101,6 +125,7 @@ Once the server is running:
 •	Join a campaign (one-time participation only)
 
 🛠 Tech Stack
+
 Technology	                 Purpose
 Python 3	                 Core programming language
 Django	                     Backend framework
@@ -111,6 +136,7 @@ Virtual Environment (venv)	 Dependency isolation
 
 
 🔍 Methods & Architecture
+
 •	Implemented Django MVT architecture
 •	Created models for Campaign and Participation
 •	Integrated Django Authentication for login/register/logout
@@ -119,6 +145,7 @@ Virtual Environment (venv)	 Dependency isolation
 •	Designed a modern, responsive UI using Bootstrap
 
 📊 Dataset
+
 No external dataset is used.
 The application uses an internal SQLite database that dynamically stores:
 •	User information
@@ -126,6 +153,7 @@ The application uses an internal SQLite database that dynamically stores:
 •	Participation records
 
 📸 Key Outputs
+
 ✔ User Registration Page
 ✔ Login Page
 ✔ Create Campaign Page
@@ -135,6 +163,7 @@ The application uses an internal SQLite database that dynamically stores:
 
 
 📌 Results & Conclusion
+
 •	Successfully built a fully functional awareness campaign management system.
 •	The platform is simple, intuitive, and user-friendly.
 •	Increases community involvement through accessible campaign creation.
@@ -142,6 +171,7 @@ The application uses an internal SQLite database that dynamically stores:
 This project demonstrates how a minimal system can make meaningful social impact.
 
 🚀 Future Improvements
+
 •	User dashboard for campaign insights
 •	Comment/feedback section on campaigns
 •	Campaign progress analytics
@@ -150,6 +180,7 @@ This project demonstrates how a minimal system can make meaningful social impact
 •	Email notifications
 
 🩺 Troubleshooting
+
 Issue	                                    Possible Fix
 Virtual environment not activating	        Use PowerShell admin mode or correct activation path
 ModuleNotFoundError	                        Ensure pip install -r requirements.txt completed
