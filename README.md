@@ -78,19 +78,19 @@ AwarenessCampaignHub/
 
 ├── campaign_app/
 
-│   ├── migrations/
+├── migrations/
 
-│   ├── templates/
+├── templates/
 
-│   ├── static/
+├── static/
 
-│   ├── models.py
+├── models.py
 
-│   ├── views.py
+├── views.py
 
-│   ├── urls.py
+├── urls.py
 
-│   └── forms.py
+└── forms.py
 
 └── AwarenessCampaignHub/
         
