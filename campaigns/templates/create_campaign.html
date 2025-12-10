@@ -1,0 +1,21 @@
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <label>Title</label>
+    <input type="text" name="title" class="form-control">
+
+    <label>Description</label>
+    <textarea name="description" class="form-control"></textarea>
+
+    <label>Category</label>
+    <select name="category" class="form-control">
+        <option>Environment</option>
+        <option>Health</option>
+        <option>Education</option>
+        <option>Social Welfare</option>
+    </select>
+
+    <label>Image</label>
+    <input type="file" name="image" class="form-control">
+
+    <button class="btn btn-primary mt-3">Create Campaign</button>
+</form>

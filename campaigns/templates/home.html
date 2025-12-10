@@ -1,0 +1,17 @@
+<h2 class="text-center">All Campaigns</h2>
+<div class="container mt-4">
+    <div class="row">
+        {% for c in campaigns %}
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <img src="{{ c.image.url }}" class="card-img-top">
+                <div class="card-body">
+                    <h5>{{ c.title }}</h5>
+                    <p>{{ c.category }}</p>
+                    <a href="{% url 'campaign_detail' c.id %}" class="btn btn-primary">View</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

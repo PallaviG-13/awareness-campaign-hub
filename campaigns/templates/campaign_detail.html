@@ -1,0 +1,8 @@
+<h2>{{ campaign.title }}</h2>
+<img src="{{ campaign.image.url }}" width="400">
+<p>{{ campaign.description }}</p>
+<p>Category: {{ campaign.category }}</p>
+
+<a href="{% url 'join_campaign' campaign.id %}" class="btn btn-success">
+    Join Campaign
+</a>
