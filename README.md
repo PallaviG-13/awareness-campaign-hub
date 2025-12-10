@@ -37,9 +37,13 @@ Users can:
 The platform focuses on various societal issues, such as:
 
 •	Environmental Protection
+
 •	Mental Health
+
 •	Hygiene & Healthcare
+
 •	Education
+
 •	Women Empowerment
 
 ✨ Features
@@ -67,6 +71,7 @@ The platform focuses on various societal issues, such as:
 📁 Project Structure
 
 AwarenessCampaignHub/
+
 ├── manage.py
 
 ├── db.sqlite3
@@ -92,7 +97,6 @@ AwarenessCampaignHub/
         ├── settings.py
         
         ├── urls.py
-        
         
         └── wsgi.py
 
