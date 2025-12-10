@@ -56,33 +56,20 @@ The platform focuses on various societal issues, such as:
 📁 Project Structure
 
 AwarenessCampaignHub/
-
 ├── manage.py
-
 ├── db.sqlite3
-
 ├── campaign_app/
-
 │   ├── migrations/
-
 │   ├── templates/
-
 │   ├── static/
-
 │   ├── models.py
-
 │   ├── views.py
-
 │   ├── urls.py
-
 │   └── forms.py
 └── AwarenessCampaignHub/
-    
-    ├── settings.py
-    
-    ├── urls.py
-    
-    └── wsgi.py
+        ├── settings.py
+        ├── urls.py
+        └── wsgi.py
 
 
 ⚙ Installation
